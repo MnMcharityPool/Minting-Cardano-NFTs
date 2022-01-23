@@ -14,7 +14,6 @@ tokenamount="1"
 fee="0"
 output="0"
 receiver="PasteCardanoAddressYouWantTheNFTsentToaddr00000000000000000000000000000000000000000000"
-ipfs_hash="InsertPinataCIDhere"
 
 ______________________________________
 #The below commands create a new Policy ID, payment address, policy.skey, policy.vkey, payment.skey and payment.vkey.  Note - You will not want to do this if you are minting additional NFT's for an existing collection.  You should reuse the same Policy for a whole collection.  Not create a new policy.  A policy can be reused until its expired slot number is reached.  
