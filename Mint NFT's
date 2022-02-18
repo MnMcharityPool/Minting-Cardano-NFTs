@@ -196,6 +196,7 @@ ________________________________________________________________________________
 
 #Note - if you want to mint a lot of NFT's without having to pay 2 ADA into the payment.addr each time - use the commands below.  You can simply load the payment address
 #with a bunch of ADA and keep minting till the ADA in the payment address is depleated.  Note that with each transaction this will send 1.5 ADA to the address receiving the NFT's.
+# The commands below replace those from line #125 onward (cardano-cli query utxo --address $(cat payment.addr) --mainnet).
 
 output="1500000"
 
